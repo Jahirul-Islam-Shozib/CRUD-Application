@@ -1,0 +1,140 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: url(img2.jpg);
+  height: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  color: aliceblue;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.607);
+}
+table {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+  position: realtive;
+  width: 100%;
+
+  /* border-collapse: collapse; */
+}
+
+tr {
+  background-color: rgba(0, 0, 0, 0.505);
+  color: aliceblue;
+}
+tr:nth-child(even) {
+  background-color: rgba(155, 100, 103, 0.471);
+}
+
+td {
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+.emp-btn-cont {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  padding: 8px 5px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: rgb(212, 83, 83);
+  color: antiquewhite;
+  cursor: pointer;
+  display: inline-block;
+}
+button:hover {
+  background: rgba(155, 100, 103, 0.471);
+}
+button {
+  background-color: rgb(212, 83, 83);
+  color: antiquewhite;
+  cursor: pointer;
+  padding: 0 5px;
+}
+.empTbl-btn-cont {
+  position: absolute;
+  left: 10%;
+  top: 60%;
+  padding: 8px 5px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: rgb(212, 83, 83);
+  color: antiquewhite;
+  cursor: pointer;
+  display: inline-block;
+}
+form {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.505);
+  color: aliceblue;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+input[type="text"] {
+  width: 90%;
+  display: inline-block;
+  margin: 5px 20px;
+  padding: 5px 5px;
+  background: rgba(155, 100, 103, 0.471);
+  color: antiquewhite;
+}
+input[type="Submit"],
+input[type="reset"],
+input[type="button"] {
+  padding: 5px 5px;
+  margin: 5px 5px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: rgb(212, 83, 83);
+  color: antiquewhite;
+  cursor: pointer;
+  display: inline-block;
+}
+input[type="submit"]:hover {
+  background: rgba(155, 100, 103, 0.471);
+}
+input[type="reset"]:hover {
+  background: rgba(155, 100, 103, 0.471);
+}
+input[type="button"]:hover {
+  background: rgba(155, 100, 103, 0.471);
+}
+
+.form-element {
+  margin: 8px 10px;
+  padding: 5px 5px;
+}
+.hidden {
+  display: none;
+}
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
